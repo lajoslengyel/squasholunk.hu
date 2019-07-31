@@ -186,13 +186,21 @@ textarea {
 
 @media only screen and (max-width: 991px) and (min-width: 768px) {
     .logo a img {
-        padding: 0;
-        margin: -15px;
         height: 59px;
+        margin: -15px;
+        padding: 0;
     }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 481px) {
+    .logo a img {
+        height: 55px;
+        margin: -15px;
+        padding: 0 0 0 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 240px) {
     .logo a img {
         height: 55px;
         margin: -15px;
@@ -339,6 +347,7 @@ END Header Area
 }
 
 .slider-inner {
+    text-align: center !important;
 }
 
 .slider-inner h2 {
@@ -478,6 +487,10 @@ END Service Area
     font-family: 'Roboto', sans-serif !important;
 }
 
+.about-area title {
+    margin-bottom: 15px;
+}
+
 .about-area strong a {
     color: inherit;
     font-weight: bold;
@@ -487,6 +500,8 @@ END Service Area
 .about-area .introduction .sign {
     text-align: right;
     margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 25px;
 }
 
 .about-area .introduction .sign img {
@@ -650,7 +665,7 @@ END Feature Area
 
 .achivement-area {
     position: relative;
-    background: url(../img/bg/ach-bg-img.jpg) center center/cover no-repeat;
+    /*background: url(../img/bg/ach-bg-img.jpg) center center/cover no-repeat;*/
 }
 
 .achivement-area:before {
@@ -1078,7 +1093,7 @@ END Pricing Area
 .call-to-action {
     position: relative;
     z-index: 1;
-    background: url(../img/bg/ach-bg-img.jpg) center center/cover no-repeat;
+    /*background: url(../img/bg/ach-bg-img.jpg) center center/cover no-repeat;*/
 }
 
 .call-to-action:before {
