@@ -32,6 +32,9 @@
 
 
 -----------------------------------------------------------------------------------*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 .text-orange {
     color: #deba2e;
@@ -340,7 +343,7 @@ END Header Area
 
 .slider-inner h2 {
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 700;
     color: #fff;
     letter-spacing: 0;
     line-height: 49px;
@@ -471,6 +474,32 @@ END Service Area
 ===========================*/
 
 .about-area {
+    color: #1b1b1b;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.about-area strong a {
+    color: inherit;
+    font-weight: bold;
+    font-size: inherit;
+}
+
+.about-area .introduction .sign {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.about-area .introduction .sign img {
+    height: 60px;
+}
+
+.about-area h2,
+.about-area p {
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.about-area .sign {
 }
 
 .section-title {
@@ -1179,6 +1208,11 @@ END Blog Post
 END Contact Area
 ===========================*/
 .contact-area {
+    background-color: #171717;
+}
+
+.contact-area .section-title h2 {
+    color: #fff;
 }
 
 .contact-form {
@@ -1229,7 +1263,7 @@ END Contact Area
 
 .s-info i {
     font-size: 21px;
-    color: #171717;
+    color: rgb(136, 136, 136);
     float: left;
     margin-right: 14px;
     margin-top: 6px;
@@ -1262,7 +1296,7 @@ END Contact Area
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: #171717;
+    background-color: #2d2d2d;
     color: #fff;
     text-align: center;
     line-height: 50px;
